@@ -126,12 +126,20 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/structure-tags.sketch": {
+	"/design/KailiChenDesign.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/structure-tags.sketch",
+		"oAP": "/design/KailiChenDesign.sketch",
+		"oF": 0
+		},
+	"/dev/Footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/Footer.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
