@@ -19,92 +19,81 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/coffeecup200119.jpg": {
-		"ft": 16384,
-		"iS": 44159,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/coffeecup200119.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Coffeereality.jpg": {
-		"ft": 16384,
-		"iS": 288996,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Coffeereality.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Coffeesleep.jpg": {
-		"ft": 16384,
-		"iS": 421932,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Coffeesleep.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Finish.jpeg": {
-		"ft": 16384,
-		"iS": 7631,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Finish.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Gallery1.jpeg": {
-		"ft": 16384,
-		"iS": 80918,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Gallery1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Gallery2.jpg": {
-		"ft": 16384,
-		"iS": 58692,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Gallery2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Gallery3.jpg": {
-		"ft": 16384,
-		"iS": 78640,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Gallery3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Hero.jpg": {
+	"/deploy/img/Section-1/Hero.jpg": {
 		"ft": 16384,
 		"iS": 103085,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Hero.jpg",
+		"oAP": "/deploy/img/Section-1/Hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section-2/Coffeesleep.jpg": {
+		"ft": 16384,
+		"iS": 421932,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section-2/Coffeesleep.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section-3/Coffeereality.jpg": {
+		"ft": 16384,
+		"iS": 288996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section-3/Coffeereality.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section-4/Gallery1.jpeg": {
+		"ft": 16384,
+		"iS": 80918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section-4/Gallery1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section-4/Gallery2.jpg": {
+		"ft": 16384,
+		"iS": 58692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section-4/Gallery2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section-4/Gallery3.jpg": {
+		"ft": 16384,
+		"iS": 78640,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section-4/Gallery3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Section-5/CoffeeIcon.png": {
+		"ft": 32768,
+		"iS": 125369,
+		"oA": 0,
+		"oAP": "/deploy/img/Section-5/CoffeeIcon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {

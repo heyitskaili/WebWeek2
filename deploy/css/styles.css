@@ -389,7 +389,7 @@ textarea {
 ============= */
 #section-4 {
   display: grid;
-  grid-template-columns: 15px auto 15px;
+  grid-template-columns: 0px auto 0px;
   grid-template-areas: ". section-5 ."; }
   #section-4 ul {
     grid-area: section-5;
@@ -401,3 +401,5 @@ textarea {
 /* =============
   section-5
 ============= */
+#section-5-img img {
+  width: 100%; }
