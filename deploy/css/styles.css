@@ -358,6 +358,10 @@ textarea {
 #section-1 img {
   width: 100%; }
 
+#coffee {
+  text-align: center;
+  color: brown; }
+
 /* =============
   section-2
 ============= */
@@ -371,6 +375,9 @@ textarea {
   #section-2 #section-2-contain {
     grid-area: section-2-contain; }
 
+#section-2 {
+  text-align: center; }
+
 /* =============
   section-3
 ============= */
@@ -383,6 +390,9 @@ textarea {
   grid-template-areas: ". section-3-contain ."; }
   #section-3 #section-3-contain {
     grid-area: section-3-contain; }
+
+#section-3 {
+  text-align: center; }
 
 /* =============
   section-4
@@ -403,3 +413,6 @@ textarea {
 ============= */
 #section-5-img img {
   width: 100%; }
+
+#section-5 {
+  text-align: center; }
