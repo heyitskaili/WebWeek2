@@ -3,10 +3,21 @@
 ============= */
 
 
-#section-2{
+#section-2-img{
 
     img{
         width: 100%;
     }
 
+}
+
+#section-2{
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-2-contain .";
+
+  #section-2-contain{
+
+    grid-area: section-2-contain;
+  }
 }
