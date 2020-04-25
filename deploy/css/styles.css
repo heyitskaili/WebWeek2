@@ -415,4 +415,8 @@ textarea {
   width: 100%; }
 
 #section-5 {
-  text-align: center; }
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-5-contain ."; }
+  #section-5 #section-5-contain {
+    grid-area: section-5-contain; }

@@ -12,8 +12,17 @@
 }
 
 
-
 #section-5{
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-5-contain .";
 
-  text-align: center;
+  #section-5-contain{
+
+    grid-area: section-5-contain;
+  }
+
+
+  
 }
+
