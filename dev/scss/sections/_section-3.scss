@@ -3,23 +3,26 @@
 ============= */
 
 
-#section-3-img{
-
-  img{
-      width: 100%;
-  }
-
-}
 
 #section-3{
-  display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-3-contain .";
+
+  #section-3-img{
+
+    img{
+        width: 100%;
+    }
+  
+
 
   #section-3-contain{
 
+    display: grid;
+  grid-template-columns: 150px auto 15px;
+  grid-template-areas: ". section-3-contain .";
+
     grid-area: section-3-contain;
   }
-  text-align: center;
+}
+
 }
 
