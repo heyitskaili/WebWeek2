@@ -371,12 +371,10 @@ textarea {
 #section-2 {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-2-contain ."; }
+  grid-template-areas: ". section-2-contain .";
+  text-align: center; }
   #section-2 #section-2-contain {
     grid-area: section-2-contain; }
-
-#section-2 {
-  text-align: center; }
 
 /* =============
   section-3
@@ -387,12 +385,10 @@ textarea {
 #section-3 {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-3-contain ."; }
+  grid-template-areas: ". section-3-contain .";
+  text-align: center; }
   #section-3 #section-3-contain {
     grid-area: section-3-contain; }
-
-#section-3 {
-  text-align: center; }
 
 /* =============
   section-4
