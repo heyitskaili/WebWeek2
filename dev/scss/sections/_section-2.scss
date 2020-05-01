@@ -3,24 +3,42 @@
 ============= */
 
 
-#section-2-img{
+
+#section-2{
+
+
+  @include md { display: grid; 
+    grid-template-columns: 30% auto; }
+
+  @include lg { display: grid; 
+    grid-template-columns: 50% auto; }
+
+    @include xl{display: grid;
+      grid-template-columns: auto 800px auto;
+    }
+
+  #section-2-img{
 
     img{
         width: 100%;
     }
 
-}
 
-#section-2{
-  display: grid;
+#section-2-contain{
+
+
+    display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-2-contain .";
 
-  #section-2-contain{
 
     grid-area: section-2-contain;
   }
 
-  text-align: center;
+
+
+
+}
+
 }
 

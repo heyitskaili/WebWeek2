@@ -361,16 +361,29 @@ textarea {
 /* =============
   section-2
 ============= */
-#section-2-img img {
+@media (min-width: 768px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 30% auto; } }
+
+@media (min-width: 992px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 50% auto; } }
+
+@media (min-width: 1200px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: auto 800px auto; } }
+
+#section-2 #section-2-img img {
   width: 100%; }
 
-#section-2 {
+#section-2 #section-2-img #section-2-contain {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-2-contain .";
-  text-align: center; }
-  #section-2 #section-2-contain {
-    grid-area: section-2-contain; }
+  grid-area: section-2-contain; }
 
 /* =============
   section-3
