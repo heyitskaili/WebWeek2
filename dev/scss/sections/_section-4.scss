@@ -12,11 +12,46 @@
       grid-area: section-5;
       display: grid;
       gap:20px;
+@include md{
 
+  grid-template-columns:50% 50% ;
+
+  grid-template-areas:
+  " g1 g1"
+  " g2 g3";
+}
       li{
           img{
               width: 100%;
           }
       }
+
+      #g1{@include md {grid-area: g1;}}
+
+      #g2{@include md {grid-area: g2;}}
+
+      #g3{@include md {grid-area: g3;}}
+
+      @include lg{
+
+        grid-template-columns:50% 50% ;
+      
+        grid-template-areas:
+        " g1 g2"
+        " g1 g3";
+      }
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+      
+            #g1{@include md {grid-area: g1;}}
+      
+            #g2{@include md {grid-area: g2;}}
+      
+            #g3{@include md {grid-area: g3;}}
+
+
   }
 }

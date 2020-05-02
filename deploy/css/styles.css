@@ -408,9 +408,36 @@ textarea {
     grid-area: section-5;
     display: grid;
     gap: 20px; }
+    @media (min-width: 768px) {
+      #section-4 ul {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: " g1 g1" " g2 g3"; } }
     #section-4 ul li img {
       width: 100%; }
-
+    @media (min-width: 768px) {
+      #section-4 ul #g1 {
+        grid-area: g1; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g2 {
+        grid-area: g2; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g3 {
+        grid-area: g3; } }
+    @media (min-width: 992px) {
+      #section-4 ul {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: " g1 g2" " g1 g3"; } }
+    #section-4 ul li img {
+      width: 100%; }
+    @media (min-width: 768px) {
+      #section-4 ul #g1 {
+        grid-area: g1; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g2 {
+        grid-area: g2; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g3 {
+        grid-area: g3; } }
 /* =============
   section-5
 ============= */
