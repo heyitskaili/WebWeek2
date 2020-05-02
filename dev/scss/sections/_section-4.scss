@@ -6,7 +6,7 @@
 #section-4{
   display: grid;
   grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-5 .";
+  grid-template-areas: ". section-4 .";
 
   ul{
       grid-area: section-5;
@@ -31,6 +31,7 @@
       #g2{@include md {grid-area: g2;}}
 
       #g3{@include md {grid-area: g3;}}
+
 
       @include lg{
 

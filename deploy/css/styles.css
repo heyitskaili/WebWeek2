@@ -388,14 +388,13 @@ textarea {
 /* =============
   section-3
 ============= */
-#section-3 #section-3-img img {
-  width: 100%; }
+#section-3 #section-3-img {
+  text-align: center; }
+  #section-3 #section-3-img img {
+    width: 100%; }
 
-#section-3 #section-3-img #section-3-contain {
-  display: grid;
-  grid-template-columns: 150px auto 15px;
-  grid-template-areas: ". section-3-contain .";
-  grid-area: section-3-contain; }
+#section-3-content {
+  text-align: center; }
 
 /* =============
   section-4
@@ -403,7 +402,7 @@ textarea {
 #section-4 {
   display: grid;
   grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-5 ."; }
+  grid-template-areas: ". section-4 ."; }
   #section-4 ul {
     grid-area: section-5;
     display: grid;

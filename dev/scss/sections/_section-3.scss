@@ -1,9 +1,6 @@
 /* =============
   section-3
 ============= */
-
-
-
 #section-3{
 
   #section-3-img{
@@ -12,17 +9,17 @@
         width: 100%;
     }
   
-
-
-  #section-3-contain{
-
-    display: grid;
-  grid-template-columns: 150px auto 15px;
-  grid-template-areas: ". section-3-contain .";
-
-    grid-area: section-3-contain;
-  }
+text-align: center;
 }
 
 }
 
+
+#section-3-content{
+
+  text-align: center;
+
+
+
+
+}

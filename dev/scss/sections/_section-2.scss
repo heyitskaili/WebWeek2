@@ -13,7 +13,7 @@
   @include lg { display: grid; 
     grid-template-columns: 50% auto; }
 
-    @include xl{display: grid;
+   @include xl{display: grid;
       grid-template-columns: auto 800px auto;
     }
 
