@@ -10,10 +10,7 @@
 
   @include md { display: grid; 
     grid-template-columns: 30% auto;
-    grid-template-areas:
-    "section-2-img ."
-    "section-2-img section-2-content"
-    "section-2-img ."; 
+   
     text-align: center;}
 
 
