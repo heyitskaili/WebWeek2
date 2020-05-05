@@ -3,26 +3,11 @@
 ============= */
 
 
-
 #footer{
-    display: grid;
-    grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". footer .";
-
-    #footer-content{
-        grid-area: footer;
-        text-align: end;;
-
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 15%;
-
-            @include md{
-                width: 5%
-            }
-          }
-    }
+    
+        display: grid;
+        grid-template-columns: 45% auto 45%;
+        grid-template-areas: ". footer .";
+    
+    
 }
