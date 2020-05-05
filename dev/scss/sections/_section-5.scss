@@ -2,26 +2,55 @@
   section-5
 ============= */
 
+#section-5{
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-5 .";
 
-#section-5-img{
+  @include md{
+      grid-template-columns: 15% auto 15%;
+  }
 
+  @include lg{
+      grid-template-columns: 15px auto 50px;
+      grid-template-areas: ". section-5 .";
+  }
+  
+
+#section-5-content{
+  grid-area: section-5;
+  text-align: justify;
   img{
       width: 100%;
   }
 
+
+  @include lg{
+      display: grid;
+      grid-template-columns: 50% auto;
+      grid-template-areas: 
+      "section-5-img ."
+      "section-5-img paragraph"
+      "section-5-img .";
+  }
 }
 
+#section-5-img {
 
-#section-5{
-  display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-5-contain .";
-
-  #section-5-contain{
-
-    grid-area: section-5-contain;
+  @include md{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
   }
 
- 
+  @include lg{
+      grid-area: section-5-img;
+  }
 }
 
+#section-5-paragraph{
+    grid-area: paragraph;
+}
+
+}

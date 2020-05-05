@@ -47,11 +47,11 @@
                 }
             }
       
-            #g1{@include md {grid-area: g1;}}
+            #g1{@include lg {grid-area: g1;}}
       
-            #g2{@include md {grid-area: g2;}}
+            #g2{@include lg {grid-area: g2;}}
       
-            #g3{@include md {grid-area: g3;}}
+            #g3{@include lg {grid-area: g3;}}
 
 
   }

@@ -10,6 +10,7 @@
   @include md { display: grid; 
     grid-template-columns: 30% auto; }
 
+
   @include lg { display: grid; 
     grid-template-columns: 50% auto; }
 
@@ -24,15 +25,16 @@
     }
 
 
-#section-2-contain{
+#section-2-content{
 
 
     display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-2-contain .";
+  grid-template-areas: ". section-2-content .";
 
 
     grid-area: section-2-contain;
+  
   }
 
 
