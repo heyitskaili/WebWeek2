@@ -7,9 +7,9 @@
 ============= */
 
 header {
-    background-color: $blue;
+    background-color: $brown;
     left: 0;
-    position: fixed;
+    
     top: 0;
     width: 100%;
     color: white;
@@ -17,18 +17,18 @@ header {
     >div {
         display: grid;
         grid-template-areas: 
-            "logo burger"
-            "navi navi";
+            "logo burger navi navi";
+        
         grid-template-columns: 80% auto;
 
         @include lg {
-            grid-template-areas: "logo nav";
+            grid-template-areas: "logo nav nav nav";
             grid-template-columns: 20% auto;
         }
 
         #logo-container {
             grid-area: logo;
-            padding: 20px;
+            padding: 10px;
         }
 
         #burger-container {
@@ -36,7 +36,7 @@ header {
             display: flex;
             grid-area: burger;
             justify-content: flex-end;
-            padding: 20px;
+            padding: 0px;
 
             @include lg {
                 display: none !important;
@@ -48,10 +48,10 @@ header {
         }
 
         #nav-container {
-            background-color: $white;
+            background-color: $darkbrown;
             display: none;
             grid-area: navi;
-            padding: 20px;
+            padding: 0px;
 
             @include lg {
                 background-color: $blue;
