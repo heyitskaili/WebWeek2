@@ -453,9 +453,14 @@ footer {
 /* =============
   section-3
 ============= */
-#section-3-img img {
-  width: 100%; }
-
+#section-3-img {
+  background-image: url("../img/Section-3/Coffeereality.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 400px; }
+  @media (min-width: 992px) {
+    #section-3-img {
+      height: 500px; } }
 #section-3 {
   display: grid;
   grid-template-columns: 15px auto 15px;
