@@ -478,44 +478,45 @@ footer {
 /* =============
   section-4
 ============= */
-#section-4 {
-  display: grid;
-  grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-4 ."; }
-  #section-4 ul {
-    grid-area: section-5;
+@media (min-width: 992px) {
+  #section-4 {
     display: grid;
-    gap: 20px; }
-    @media (min-width: 768px) {
-      #section-4 ul {
-        grid-template-columns: 50% 50%;
-        grid-template-areas: " g1 g1" " g2 g3"; } }
-    #section-4 ul li img {
-      width: 100%; }
-    @media (min-width: 768px) {
-      #section-4 ul #g1 {
-        grid-area: g1; } }
-    @media (min-width: 768px) {
-      #section-4 ul #g2 {
-        grid-area: g2; } }
-    @media (min-width: 768px) {
-      #section-4 ul #g3 {
-        grid-area: g3; } }
-    @media (min-width: 992px) {
-      #section-4 ul {
-        grid-template-columns: 50% 50%;
-        grid-template-areas: " g1 g2" " g1 g3"; } }
-    #section-4 ul li img {
-      width: 100%; }
-    @media (min-width: 992px) {
-      #section-4 ul #g1 {
-        grid-area: g1; } }
-    @media (min-width: 992px) {
-      #section-4 ul #g2 {
-        grid-area: g2; } }
-    @media (min-width: 992px) {
-      #section-4 ul #g3 {
-        grid-area: g3; } }
+    grid-template-areas: ". section-4 .";
+    grid-template-columns: 15px auto 15px; } }
+
+@media (min-width: 1200px) {
+  #section-4 {
+    grid-template-columns: auto 1200px auto; } }
+
+#section-4 ul {
+  grid-area: section-4;
+  display: grid;
+  grid-template-rows: repeat(3, 290px);
+  grid-gap: 20px;
+  grid-template-areas: "g1" "g2" "g3"; }
+  @media (min-width: 768px) {
+    #section-4 ul {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: repeat(3, 340px);
+      grid-template-areas: "g1 g1" "g1 g1" "g2 g3"; } }
+  @media (min-width: 992px) {
+    #section-4 ul {
+      grid-template-columns: 60% auto;
+      grid-template-rows: repeat(2, 340px);
+      grid-template-areas: "g1 g2" "g1 g3"; } }
+  #section-4 ul li {
+    background-size: cover;
+    background-position: center; }
+  #section-4 ul #g1 {
+    grid-area: g1;
+    background-image: url("../img/Section-4/Gallery1.jpeg"); }
+  #section-4 ul #g2 {
+    grid-area: g2;
+    background-image: url("../img/Section-4/Gallery2.jpg"); }
+  #section-4 ul #g3 {
+    grid-area: g3;
+    background-image: url("../img/Section-4/Gallery3.jpg"); }
+
 /* =============
   section-5
 ============= */
