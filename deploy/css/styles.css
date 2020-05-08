@@ -431,22 +431,22 @@ footer {
   section-2
 ============= */
 #section-2 {
-  text-align: center; }
+  text-align: center;
+  margin: 20px 0px 40px; }
   @media (min-width: 768px) {
     #section-2 {
-      display: grid;
-      grid-template-columns: 30% auto;
-      text-align: center; } }
+      margin: 20px 150px; }
+      #section-2 #section-2-container {
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas: "section-2-img ." "section-2-img section-2-content" "section-2-img ."; } }
   @media (min-width: 992px) {
     #section-2 {
-      display: grid;
-      grid-template-columns: 50% auto;
-      text-align: center; } }
-  @media (min-width: 1200px) {
-    #section-2 {
-      display: grid;
-      grid-template-columns: auto 800px auto;
-      text-align: center; } }
+      margin: 20px  300px; }
+      #section-2 #section-2-container {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "section-2-img ." "section-2-img section-2-content" "section-2-img ."; } }
   #section-2 #section-2-img img {
     width: 100%; }
 

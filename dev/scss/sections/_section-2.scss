@@ -5,36 +5,43 @@
 
 
 #section-2{
-
+  
   text-align: center;
-
-  @include md { display: grid; 
-    grid-template-columns: 30% auto;
-   
-    text-align: center;}
+  margin: 20px 0px 40px;
 
 
-  @include lg { display: grid; 
-    grid-template-columns: 50% auto; 
-    text-align: center;}
+  @include md {
+    #section-2-container{ display: grid;
+  grid-template-columns: 30% auto; 
+  grid-template-areas:
+  "section-2-img ."
+  "section-2-img section-2-content"
+  "section-2-img ." ;}
+margin: 20px 150px;} 
 
-   @include xl{display: grid;
-      grid-template-columns: auto 800px auto;
-      text-align: center;}
 
-  #section-2-img{
+  @include lg {
+    #section-2-container{ display: grid;
+  grid-template-columns: 50% auto; 
+  grid-template-areas:
+  "section-2-img ."
+  "section-2-img section-2-content"
+  "section-2-img ." ;}
+margin: 20px  300px ;} 
 
+
+
+
+
+  
+   #section-2-img{
     img{
         width: 100%;
-    }
+    };
 
-
-
+  }
 
 
 
 
 }
-
-}
-
