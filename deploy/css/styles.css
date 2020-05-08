@@ -456,6 +456,9 @@ footer {
       width: 100%; }
   #section-2 #section-2-content {
     grid-area: section-2-content; }
+  #section-2 hr {
+    height: 5px;
+    background-color: #98694F; }
 
 /* =============
   section-3
@@ -482,6 +485,11 @@ footer {
       grid-template-columns: 25% auto 25%; } }
   #section-3 #section-3-content {
     grid-area: section-3; }
+  #section-3 hr {
+    height: 5px;
+    background-color: #98694F; }
+  #section-3 h2 {
+    color: #66462F; }
 
 /* =============
   section-4
