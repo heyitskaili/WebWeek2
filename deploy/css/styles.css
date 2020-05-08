@@ -469,6 +469,7 @@ footer {
     #section-3-img {
       height: 500px; } }
 #section-3 {
+  margin: 20px 0;
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-3 .";
@@ -528,6 +529,7 @@ footer {
   section-5
 ============= */
 #section-5 {
+  margin: 20px 0;
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-5 ."; }
