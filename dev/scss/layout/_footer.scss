@@ -3,31 +3,33 @@
 ============= */
 
 
+
 footer{
+    background-color: #98694F;
+
+    #footer-image{
+        grid-area: logo;
+        align-self: center;
+    }
+    #footer-copyright{
+        color: white;
+        grid-area: copyright;
+        justify-self: right;
+        padding-right: 20px;
+        font-size: 2em;
+    }
+
     display: grid;
-    grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". footer .";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "logo . copyright";
 
-    #footer-content{
-        grid-area: footer;
-        text-align: end;;
+    @include md{
+        #footer-image{
+            justify-self: center;
+        }
         
-
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 5%;
-
-            @include md{
-                width: 7%
-            }
-
-            @include lg{
-               
-                width: 6%;
-            }
-          }
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: ". logo copyright";
     }
 }

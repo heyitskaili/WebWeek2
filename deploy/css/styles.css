@@ -394,23 +394,26 @@ header {
     Footer
 ============= */
 footer {
+  background-color: #98694F;
   display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". footer ."; }
-  footer #footer-content {
-    grid-area: footer;
-    text-align: end; }
-    footer #footer-content img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 5%; }
-      @media (min-width: 768px) {
-        footer #footer-content img {
-          width: 7%; } }
-      @media (min-width: 992px) {
-        footer #footer-content img {
-          width: 6%; } }
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "logo . copyright"; }
+  footer #footer-image {
+    grid-area: logo;
+    align-self: center; }
+  footer #footer-copyright {
+    color: white;
+    grid-area: copyright;
+    justify-self: right;
+    padding-right: 20px;
+    font-size: 2em; }
+  @media (min-width: 768px) {
+    footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: ". logo copyright"; }
+      footer #footer-image {
+        justify-self: center; } }
 /* =============
   section-1
 ============= */
@@ -435,14 +438,14 @@ footer {
   margin: 20px 0px 40px; }
   @media (min-width: 768px) {
     #section-2 {
-      margin: 20px 150px; }
+      margin: 20px 50px; }
       #section-2 #section-2-container {
         display: grid;
         grid-template-columns: 30% auto;
         grid-template-areas: "section-2-img ." "section-2-img section-2-content" "section-2-img ."; } }
   @media (min-width: 992px) {
     #section-2 {
-      margin: 20px  300px; }
+      margin: 20px  150px; }
       #section-2 #section-2-container {
         display: grid;
         grid-template-columns: 50% auto;
@@ -502,7 +505,7 @@ footer {
     #section-4 ul {
       grid-template-columns: 50% 50%;
       grid-template-rows: repeat(3, 340px);
-      grid-template-areas: "g1 g1" "g1 g1" "g2 g3"; } }
+      grid-template-areas: "g1 g1" "g1 g1" "g3 g2"; } }
   @media (min-width: 992px) {
     #section-4 ul {
       grid-template-columns: 60% auto;
