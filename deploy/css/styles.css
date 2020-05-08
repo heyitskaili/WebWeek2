@@ -325,6 +325,10 @@ ul {
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Quicksand', sans-serif; }
+
 /* =============
     Buttons
 ============= */
@@ -445,7 +449,7 @@ footer {
         grid-template-areas: "section-2-img ." "section-2-img section-2-content" "section-2-img ."; } }
   @media (min-width: 992px) {
     #section-2 {
-      margin: 20px  150px; }
+      margin: 20px 150px; }
       #section-2 #section-2-container {
         display: grid;
         grid-template-columns: 50% auto;

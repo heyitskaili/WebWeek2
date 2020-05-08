@@ -2,45 +2,45 @@
   section-3
 ============= */
 
-  #section-3-img{
-    background-image: url('../img/Section-3/Coffeereality.jpg');
-    background-size: cover;
-    background-position: right;
-    height: 400px;
+#section-3-img {
+  background-image: url('../img/Section-3/Coffeereality.jpg');
+  background-size: cover;
+  background-position: right;
+  height: 400px;
 
 
-    @include lg{
-      height: 500px;
-    }
+  @include lg {
+    height: 500px;
   }
+}
 
 
-#section-3{
+#section-3 {
   margin: 20px 0;
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-3 .";
   text-align: center;
 
-  @include md{
-      grid-template-columns: 10% auto 10%;
+  @include md {
+    grid-template-columns: 10% auto 10%;
   }
 
-  @include lg{
+  @include lg {
     grid-template-columns: 25% auto 25%;
   }
 
-  #section-3-content{
-      grid-area: section-3;
+  #section-3-content {
+    grid-area: section-3;
   }
 
-  hr{
+  hr {
     height: 5px;
-    background-color: #98694F;
+    background-color: $brown;
   }
 
-  h2{
-    color:#66462F;
+  h2 {
+    color: $darkbrown;
   }
 
 }
