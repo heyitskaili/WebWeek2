@@ -12,7 +12,7 @@
   }
 
   @include lg{
-      grid-template-columns: 15px auto 50px;
+      grid-template-columns: 15px auto 200px;
       grid-template-areas: ". section-5 .";
   }
   

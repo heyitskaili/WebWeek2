@@ -447,8 +447,12 @@ footer {
         display: grid;
         grid-template-columns: 50% auto;
         grid-template-areas: "section-2-img ." "section-2-img section-2-content" "section-2-img ."; } }
-  #section-2 #section-2-img img {
-    width: 100%; }
+  #section-2 #section-2-img {
+    grid-area: section-2-img; }
+    #section-2 #section-2-img img {
+      width: 100%; }
+  #section-2 #section-2-content {
+    grid-area: section-2-content; }
 
 /* =============
   section-3
@@ -529,7 +533,7 @@ footer {
       grid-template-columns: 15% auto 15%; } }
   @media (min-width: 992px) {
     #section-5 {
-      grid-template-columns: 15px auto 50px;
+      grid-template-columns: 15px auto 200px;
       grid-template-areas: ". section-5 ."; } }
   #section-5 #section-5-content {
     grid-area: section-5;

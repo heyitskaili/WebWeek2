@@ -31,14 +31,18 @@ margin: 20px  300px ;}
 
 
 
-
-
-  
-   #section-2-img{
+#section-2-img{
     img{
         width: 100%;
     };
 
+   grid-area: section-2-img;
+
+  }
+
+  #section-2-content{
+
+    grid-area: section-2-content;
   }
 
 
