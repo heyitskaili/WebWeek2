@@ -2,10 +2,23 @@
   section-1
 ============= */
 
+/* #section-1{img{width: 100%;}    */
+
 #section-1{
+background-image: url('../img/Section-1/Hero.jpg');
+background-size: cover;
+background-position:center;
+height: 285px;
 
-    img{
-
-        width: 100%;
-    }
+@include md{
+  background-position: left;
+  height: 500px ;
 }
+
+@include lg{
+  height: 600px;
+}
+
+}
+
+
