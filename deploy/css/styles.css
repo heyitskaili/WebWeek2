@@ -440,6 +440,8 @@ footer {
 #section-2 {
   text-align: center;
   margin: 20px 0px 40px; }
+  #section-2 h2 {
+    font-family: 'Merriweather', serif; }
   @media (min-width: 768px) {
     #section-2 {
       margin: 20px 50px; }
