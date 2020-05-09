@@ -322,6 +322,16 @@ ul {
   ul li {
     list-style: none; }
 
+.show-for-medium {
+  display: none; }
+  @media (min-width: 768px) {
+    .show-for-medium {
+      display: block; } }
+.show-for-large {
+  display: none; }
+  @media (min-width: 992px) {
+    .show-for-large {
+      display: block; } }
 /* =============
     Typography
 ============= */
@@ -350,6 +360,29 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-end; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        align-items: center;
+        display: flex;
+        margin: 0px 10px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.25s; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #000; }
+
 /* =============
     Header
 ============= */
@@ -358,26 +391,28 @@ textarea {
 ============= */
 header {
   background-color: #98694F;
-  left: 0;
-  top: 0;
+  left: 0px;
+  top: -20px;
+  bottom: 650px;
+  position: fixed;
   width: 100%;
   color: white; }
   header > div {
     display: grid;
-    grid-template-areas: "logo burger navi navi";
+    grid-template-areas: "logo burger" "nav nav";
     grid-template-columns: 80% auto; }
     @media (min-width: 992px) {
       header > div {
-        grid-template-areas: "logo nav nav nav";
-        grid-template-columns: 20% auto; } }
+        grid-template-areas: ". . logo .";
+        grid-template-columns: repeat(3, 340px); } }
     header > div #logo-container {
       grid-area: logo;
-      padding: 10px; }
+      padding: 20px; }
     header > div #burger-container {
       align-items: center;
       display: flex;
       grid-area: burger;
-      justify-content: flex-end;
+      justify-content: center;
       padding: 0px; }
       @media (min-width: 992px) {
         header > div #burger-container {
@@ -385,7 +420,7 @@ header {
       header > div #burger-container i {
         cursor: pointer; }
     header > div #nav-container {
-      background-color: #66462F;
+      background-color: #98694F;
       display: none;
       grid-area: navi;
       padding: 0px; }

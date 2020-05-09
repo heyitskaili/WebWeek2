@@ -4,14 +4,15 @@
 
 
 
-footer{
+footer {
     background-color: $brown;
 
-    #footer-image{
+    #footer-image {
         grid-area: logo;
         align-self: center;
     }
-    #footer-copyright{
+
+    #footer-copyright {
         color: white;
         grid-area: copyright;
         justify-self: right;
@@ -23,11 +24,11 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "logo . copyright";
 
-    @include md{
-        #footer-image{
+    @include md {
+        #footer-image {
             justify-self: center;
         }
-        
+
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: ". logo copyright";
