@@ -5,9 +5,10 @@
 /* #section-1{img{width: 100%;}    */
 
 #section-1 {
+  margin-top: 5em;
   background-image: url('../img/Section-1/Hero.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 285px;
 
   @include md {
