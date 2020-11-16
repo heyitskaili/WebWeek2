@@ -11,6 +11,12 @@ gsap.registerPlugin(DrawSVGPlugin);
 export function Section3Animation() {
     var section3tl = gsap.timeline();
 
+    section3tl.from("#quotations", {
+        duration: 0.3,
+        alpha: -1
+
+    });
+
     section3tl.from("#quotes", {
         duration: 0.3,
         alpha: -1
