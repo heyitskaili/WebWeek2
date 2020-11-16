@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "A57ABEC1-9ADB-46A3-B1F4-2E3604296B98"
+		"uuidString": "0AE7C118-56E6-4285-8C11-D179F538E479"
 		}
 	],
 "creatorBuild": "32001",
@@ -19,94 +19,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/Footer/coffee.png": {
-		"ft": 32768,
-		"iS": 646,
-		"oA": 0,
-		"oAP": "/deploy/img/Footer/coffee.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/Section-1/Hero.jpg": {
-		"ft": 16384,
-		"iS": 686624,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-1/Hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-2/Coffeesleep.jpeg": {
-		"ft": 16384,
-		"iS": 36017,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-2/Coffeesleep.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-3/Coffeereality.jpg": {
-		"ft": 16384,
-		"iS": 288996,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-3/Coffeereality.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-4/Gallery1.jpeg": {
-		"ft": 16384,
-		"iS": 80918,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-4/Gallery1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-4/Gallery2.jpg": {
-		"ft": 16384,
-		"iS": 58692,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-4/Gallery2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-4/Gallery3.jpg": {
-		"ft": 16384,
-		"iS": 78640,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-4/Gallery3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/Section-5/CoffeeIcon.png": {
-		"ft": 32768,
-		"iS": 125369,
-		"oA": 0,
-		"oAP": "/deploy/img/Section-5/CoffeeIcon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -114,17 +26,6 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 0
-		},
-	"/deploy/js/scripts-min-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
@@ -137,36 +38,44 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/KailiChenDesign.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/design/KailiChenDesign.sketch",
-		"oF": 0
-		},
-	"/dev/Footer.kit": {
+	"/dev/content/logosection/Logo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/Footer.html",
+		"oAP": "/dev/content/logosection/Logo.html",
 		"oF": 0
 		},
-	"/dev/header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/header.html",
-		"oF": 0
-		},
-	"/dev/header.kit": {
+	"/dev/content/maintabletsection/Maintablet.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/header.html",
+		"oAP": "/dev/content/maintabletsection/Maintablet.html",
+		"oF": 0
+		},
+	"/dev/content/section-3/section3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/section-3/section3.html",
+		"oF": 0
+		},
+	"/dev/global/head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head.html",
+		"oF": 0
+		},
+	"/dev/global/scripts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -178,13 +87,46 @@
 		"oF": 2
 		},
 	"/dev/js/scripts.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/logosection/logo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/logosection/logo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/maintabletsection/maintablet.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/maintabletsection/maintablet-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-3/section3.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-3/section3-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -318,7 +260,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-1.scss": {
+	"/dev/scss/sections/fingerprintsection/fingerprint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -326,12 +268,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
+		"oAP": "/dev/scss/sections/fingerprintsection/fingerprint.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-2.scss": {
+	"/dev/scss/sections/logosection/logo.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -339,12 +281,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-2.css",
+		"oAP": "/dev/scss/sections/logosection/logo.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-3.scss": {
+	"/dev/scss/sections/maintabletssection/tablet.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -352,33 +294,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-3.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_section-4.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-4.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_section-5.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-5.css",
+		"oAP": "/dev/scss/sections/maintabletssection/tablet.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -396,45 +312,60 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/section-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-1.html",
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/dev/section-2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/section-2.html",
-		"oF": 0
+		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
-	"/dev/section-3.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/section-3.html",
-		"oF": 0
+		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
-	"/dev/section-4.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/section-4.html",
-		"oF": 0
+		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
-	"/dev/section-5.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
+	"/package-lock.json": {
+		"ft": 524288,
 		"oA": 1,
-		"oAP": "/dev/section-5.html",
-		"oF": 0
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
@@ -442,10 +373,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 608847948.48672795,
+	"creationDate": 622561353.46572006,
 	"displayValue": "WebWeek2",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-glace",
+	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -884,11 +815,11 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 8193,
+	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -964,7 +895,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1912,7 +1843,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,

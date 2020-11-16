@@ -1,22 +1,21 @@
+import {gsap} from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+gsap.registerPlugin(GSDevTools);
 
-var $burger = $("#burger-icon");
-var $nav = $('nav[data-nav]');
-var $navA = $('nav[data-nav] a');
-var isVisible = false;
+// import { DrawSVGPlugin } from "./sections/logosection/logo.js";
+// gsap.registerPlugin(DrawSVGPlugin);
 
-function mouseClick(){
+import {LogoAnimation} from "./sections/logosection/logo.js"
+import {Section3Animation} from "./sections/section-3/section3.js"
+import {MaintabletAnimation} from "./sections/maintabletsection/maintablet.js"
 
-    console.log("click");
-    if(isVisible === false){
-        $nav.show();
-        isVisible = true;
-    }
-    else{
-        $nav.hide();
-        isVisible = false;
-    }
-}
 
-$burger.on( "click", mouseClick);
-// close the mobile menu when menu link is clicked
-$navA.on( "click", mouseClick);
+
+const mainTL = gsap.timeline();
+mainTL.add(LogoAnimation());
+mainTL.add(Section3Animation());
+mainTL.add(MaintabletAnimation());
+
+
+
+GSDevTools.create();
