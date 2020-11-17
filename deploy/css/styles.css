@@ -434,3 +434,12 @@ textarea {
   padding: 10px;
   font-size: 20px;
   line-height: 30px; }
+
+#section3 {
+  display: none; }
+
+#section2 {
+  display: none; }
+
+#section1 {
+  display: none; }
