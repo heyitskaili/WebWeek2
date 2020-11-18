@@ -7,7 +7,7 @@ gsap.registerPlugin(DrawSVGPlugin, MorphSVGPlugin);
 // import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 // gsap.registerPlugin(ScrambleTextPlugin);
 
-gsap.set("#quotationmarkbig",{transformOrigin: "center"});
+gsap.set("#quotationmarkbig1",{transformOrigin: "center"});
 
 export function Section4Animation() {
     var section4tl = gsap.timeline();

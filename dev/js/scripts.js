@@ -11,7 +11,6 @@ import {Section4Animation} from "./sections/section-4/section4.js"
 
 
 
-
 const mainTL = gsap.timeline();
 // // mainTL.add(Section2Animation());
 mainTL.add(Section3Animation());
